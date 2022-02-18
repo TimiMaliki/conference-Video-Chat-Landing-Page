@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <meta charset=Utf-8>
+    <meta name="Viewport"     content="width=device-width">
+    <meta name="Description"  content="Mywebsite">
+    <meta name="Author"       content="Vermillion">
+    <head>
+        <title>
+        VERMILLION|WEBSITE
+        </title>
+        <link rel="stylesheet" href="new.css">
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <ui>
+                     <a href="#"><li>HOME</li></a>
+                     <a href="#"><li>ABOUT</li></a>
+                      <li><a href="#">SERVICE</li></a>
+                   <li><a href="#">CONTACT</li></a>
+                   <li class="high"><a href="#" class="location" >OUR LOCATION</li></a>
+                    </ui>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="img-wrapper">
+                    <div class="msg-container">
+                        <div id="slider">
+                            <div class="msg-col">
+                            <h1>The Reasoning</h1>
+                            <p>GO AND GET WHAT YOU DESERVE
+                            </p>
+                            <a href="#">Learn More</a>
+
+                        </div>
+                        <div class="msg-col">
+                            <h1>The Knowledge</h1>
+                            <p>NEVER LET YOUR EMOTIONS<br>
+                                OVERPOWER YOUR INTELLIGENCE
+                            </p>
+                            <a href="">Learn More</a>
+                        </div>
+
+                        <div class="msg-col">
+                            <h1>The Integration</h1>
+                            <p>BEING ALONE HAS A POWER<br>
+                                THAT VERY FEW CAN CHANGE
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+
+                        <div class="msg-col">
+                            <h1>The Learning</h1>
+                            <p>PEOPLE SAY A LOT<br>
+                                SO I WATCH WHAT THEY DO
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                   
+                    </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="controller">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+                <div id="line4"></div>
+                <div id="active"></div>
+            </div>
+    </section>
+    <script>
+        var slider= document.getElementById('slider');
+        var active= document.getElementById('active');
+        var line1= document.getElementById('line1');
+        var line2= document.getElementById('line2');
+        var line3= document.getElementById('line3');
+        var line4= document.getElementById('line4');
+
+        line1.onclick=function(){
+            slider.style.transform='translateX(0)';
+            active.style.top='0px';
+        }
+        line2.onclick=function(){
+            slider.style.transform='translateX(-25%)';
+            active.style.top='80px';
+        }
+        line3.onclick=function(){
+            slider.style.transform='translateX(-50%)';
+            active.style.top='160px';
+        }
+        line4.onclick=function(){
+            slider.style.transform='translateX(-75%)';
+            active.style.top='240px';
+        }
+
+
+   
+   
+   
+    </script>
+
+    
+    
+    
+    </body>
+</html>
