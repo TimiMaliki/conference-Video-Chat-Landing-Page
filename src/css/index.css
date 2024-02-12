@@ -1,0 +1,88 @@
+.laptop-img::before{
+    content:"";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 210%;
+    left:12%;
+    background-color: #f977ce;
+    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    border-radius: 9px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
+}
+.laptop-img::after{
+    content:"";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 270%;
+    left:45%;
+    background: url("../../assets/laptop-clean.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 9px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
+}
+
+/*================ LAPTOP IMG 2 ===========================*/
+
+.laptop-img2::before{
+    content:"";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 345%;
+    left:49%;
+    background-color: red;
+    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    border-radius: 9px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
+}
+.laptop-img2::after{
+    content:"";
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 410%;
+    left:45%;
+    background: url("../../assets/laptop-clean.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 9px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
+    
+}
+
+
+/*================ SWIPER JS ===========================*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
